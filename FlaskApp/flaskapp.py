@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # SQLite Database Setup
-DATABASE = '/home/ubuntu/flaskapp/users.db'
+DATABASE = '/home/ubuntu/flaskapp/mydatabase.db'
 
 # Route to display the registration form
 @app.route('/')
